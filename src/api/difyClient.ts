@@ -3,7 +3,10 @@
  * Integrates TrendTok AI React app with Dify workflows
  */
 
+// Get environment variables
+// @ts-ignore - Vite env variables
 const DIFY_API_BASE = import.meta.env.VITE_DIFY_API_URL || "https://api.dify.ai/v1";
+// @ts-ignore - Vite env variables
 const DIFY_API_KEY = import.meta.env.VITE_DIFY_API_KEY;
 
 // Workflow names
